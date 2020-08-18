@@ -1,0 +1,7 @@
+Article - https://www.frontiersin.org/articles/10.3389/fpls.2015.01039/full
+
+Task
+
+In the third homework you will be given a small transcirptome to assemble. You can use either your laptop (if it is powerfull enough) or a computational cluster that was set up for you. You can also use any other online tools (like galaxy or gVolante). To pass this homework you must present your results and possibly compare to paper results.
+
+p.s.: The final result is given as PDF file 'cause all steps were done on the computational cluster.

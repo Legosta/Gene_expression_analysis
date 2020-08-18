@@ -1,0 +1,35 @@
+Article - https://elifesciences.org/articles/50375
+
+Dataset - https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE114986
+
+Task
+
+For second homework you will need to choose one of recent scRNA-seq datasets and perform basic analysis:
+
+1) Preprocessing: filtering out bad cells and normalization
+2) UMAP + clustering
+3) Marker selection for clusters
+
+p.s.:
+
+1) Create directory: 
+
+mkdir ~/GSE114986   
+
+2) Download data: 
+
+wget -P ~/GSE114986 'ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE114nnn/GSE114986/suppl/GSE114986_RAW.tar'; cd ~/GSE114986
+
+3) Uncompress tar-file:
+
+tar -xvf GSE114986_RAW.tar
+
+4) Remove "GSM3161971_" from filenames:
+
+rename 's/GSM3161971_//g' *.*
+
+5) Gunzip all *.gz files:
+
+gzip -d *.gz 
+
+6) Execute code lines in R script one by one.

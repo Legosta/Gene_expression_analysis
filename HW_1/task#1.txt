@@ -1,0 +1,10 @@
+Dataset - https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122121
+
+Task 
+
+The first homework is to analyze a microarray gene expression dataset. All the datasets will be available by GEO id, so you can find them at GEO omnibus and also use GEOquery::getGEO("GSEXXXXX") to get the expression data into R session.
+Basically you needed to perform basic steps for a dataset: normalize and make sense of the PCA plot. Then you need to design differential exression to address the general question for your homework. Once you perform DE I want you to highlight genes that are different and perform pathway enrichment.
+
+"In infected samples what's different with KO?" 
+
+p.s. All necessary data will be downloaded through R script execution
